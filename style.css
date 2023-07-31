@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+.tri{
+    width: 100%;
+    height: 100%;
+    background-color: #ff0000d7;
+    clip-path: polygon(0% 0 ,100% 0%, 10% 111%, 0% 112%);
+}
+.card1{
+    width: 250px;
+    background-color: lightgrey;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(img/cam-removebg-preview.png);
+    border: 2px solid #e4e7ed ;
+    object-fit: cover;
+    height: 170px;
+
+}
+.card1 p{
+    color: #e4e7ed;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 13px 15px 15px 15px ;
+    line-height: 1.2;
+    font-size: 18px;
+}
+.card1 span{
+    color: #e4e7ed;
+    font-size: 12px;
+    margin-top: -5px;
+    padding-top: -5px;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+.card1 span i{
+    font-size: 14px;
+}
+.card2{
+    background-color: lightgrey;
+    width: 250px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(img/hp-removebg-preview.png);
+    border: 2px solid #e4e7ed ;
+    object-fit: cover;
+    height: 170px;}
+    
+.card3{
+    width: 250px;
+    background-color: lightgrey;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(img/headset1-removebg-preview.png);
+    border: 2px solid #e4e7ed ;
+    object-fit: cover;
+    height: 170px;}
+
+    .card2 p{
+        color: #e4e7ed;
+        text-transform: capitalize;
+        font-weight: bold;
+        padding: 13px 15px 15px 15px ;
+        line-height: 1.2;
+        font-size: 18px;
+    }
+    .card2 span{
+        color: #e4e7ed;
+        font-size: 12px;
+        margin-top: -5px;
+        padding-top: -5px;
+        padding-left: 15px;
+        text-transform: uppercase;
+    }
+    .card3 p{
+        color: #e4e7ed;
+        text-transform: capitalize;
+        font-weight: bold;
+        padding: 13px 15px 15px 15px ;
+        line-height: 1.2;
+        font-size: 18px;
+    }
+    .card3 span{
+        color: #e4e7ed;
+        font-size: 12px;
+        margin-top: -5px;
+        padding-top: -5px;
+        padding-left: 15px;
+        text-transform: uppercase;
+    }
